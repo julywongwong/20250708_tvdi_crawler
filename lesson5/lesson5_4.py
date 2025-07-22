@@ -1,9 +1,7 @@
 import asyncio
-from crawl4ai import (AsyncWebCrawler,
-                      CrawlerRunConfig,
-                      DefaultMarkdownGenerator,
-                      PruningContentFilter)
-
+from crawl4ai import AsyncWebCrawler,CrawlerRunConfig,
+from crawl4ai.extraction_strategy import 
+                     
 async def main():
     #建立爬蟲執行的設定配置
     run_config = CrawlerRunConfig(
